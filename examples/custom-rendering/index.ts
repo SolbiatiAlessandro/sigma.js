@@ -38,7 +38,7 @@ const RED = "#FA4F40";
 const BLUE = "#727EE0";
 const GREEN = "#5DB346";
 
-graph.addNode("John", { size: 15, label: "John", type: "image", image: "./user.svg", color: RED });
+graph.addNode("John", { size: 15, label: "John", type: "image", image: "./test.png", color: RED });
 graph.addNode("Mary", { size: 15, label: "Mary", type: "image", image: "./user.svg", color: RED });
 graph.addNode("Suzan", { size: 15, label: "Suzan", type: "image", image: "./user.svg", color: RED });
 graph.addNode("Nantes", { size: 15, label: "Nantes", type: "image", image: "./city.svg", color: BLUE });
