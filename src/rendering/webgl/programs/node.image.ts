@@ -57,6 +57,7 @@ export default function getNodeImageProgram(): typeof AbstractNodeImageProgram {
    * Helper to load an image:
    */
   function loadImage(imageSource: string): void {
+		console.log("loadImage");
     if (images[imageSource]) return;
 
     const image = new Image();
